@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Experience from "../pages/experience_page";
 import Publications from "../pages/publications_page";
 import Contact from "../pages/contact_page.js";
