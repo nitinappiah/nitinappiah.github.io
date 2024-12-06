@@ -10,24 +10,26 @@ import Contact from './pages/contact_page.js';
 
 const router = createBrowserRouter([
   {
-    path: '',
+    path: '/',
     element: <HomePage />,
-  },
-  {
-    path: 'About',
-    element: <HomePage />,
-  },
-  {
-    path: 'experience',
-    element: <Experience />
-  },
-  {
-    path: 'publications',
-    element: <Publications />
-  },
-  {
-    path: 'Hire Me',
-    element: <Contact />
+    children: [
+      {
+        path: '/About',
+        element: <HomePage />,
+      },
+      {
+        path: '/Experience',
+        element: <Experience />
+      },
+      {
+        path: '/Publications',
+        element: <Publications />
+      },
+      {
+        path: '/Hire Me',
+        element: <Contact />
+      }
+    ]
   }
 ])
 createRoot(document.getElementById('root')!).render(
