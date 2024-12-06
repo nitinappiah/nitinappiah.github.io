@@ -55,7 +55,7 @@ const Typewriter = ({ textArray, period }: typewriter) => {
       <a className="icon-pad" href="https://scholar.google.com/citations?user=2AeT0hUAAAAJ&hl=en&authuser=2">
         <FaGoogleScholar size={35}/>
       </a>
-      <a className="icon-pad" href="https://github.com/nikamanthab">
+      <a className="icon-pad" href="https://github.com/nitinappiah">
         <FaGithub size={38}/>
       </a>
       <a className="icon-pad" href="https://www.instagram.com/nitin.appiah/">
