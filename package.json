@@ -8,7 +8,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview --port 8080"
+    "preview": "vite preview --port 8080",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.1",
@@ -24,6 +26,7 @@
     "@nivo/radar": "^0.88.0",
     "bootstrap": "^5.3.3",
     "d3": "^7.9.0",
+    "gh-pages": "^6.2.0",
     "n3": "^1.23.1",
     "n3-charts": "^2.0.28",
     "react": "^18.3.1",
