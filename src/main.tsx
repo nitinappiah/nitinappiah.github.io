@@ -12,24 +12,22 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <HomePage />,
-    children: [
-      {
-        path: '/About',
-        element: <HomePage />,
-      },
-      {
-        path: '/Experience',
-        element: <Experience />
-      },
-      {
-        path: '/Publications',
-        element: <Publications />
-      },
-      {
-        path: '/Hire Me',
-        element: <Contact />
-      }
-    ]
+  },
+  {
+    path: 'About',
+    element: <HomePage />,
+  },
+  {
+    path: 'experience',
+    element: <Experience />
+  },
+  {
+    path: 'publications',
+    element: <Publications />
+  },
+  {
+    path: 'Hire Me',
+    element: <Contact />
   }
 ])
 createRoot(document.getElementById('root')!).render(
