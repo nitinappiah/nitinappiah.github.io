@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  /* align-items: center; Centers vertically */
+  flex-direction: column;
+  padding: 5%;
+}
+
+.body-padding {
+    max-width: 800px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 100vh;
+}
+
+.justified {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.bg-color {
+    background-color: beige;
+}
+
+.publication-margin {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding: 5vh;
+    text-align: justify;
+    font-size: medium;
+}
+
+  
+@media (max-width: 768px) {
+.publication-margin {
+    margin-left: 1%;
+    margin-right: 1%; /* Full width for devices narrower than 768px */
+}
+}

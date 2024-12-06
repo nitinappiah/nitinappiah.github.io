@@ -1,0 +1,31 @@
+@keyframes blink {
+  50% {
+    border-color: transparent; /* Makes the border invisible halfway through the animation */
+  }
+}
+
+.typewrite > .wrap {
+  border-right: 0.08em solid #ea1414;
+  animation: blink 0.7s step-end infinite;
+  color: #ea1414;
+}
+.inline{
+  display: inline-block;
+}
+
+.title-div {
+  height: 30vh;
+}
+
+.dull-text {
+  color:grey;
+}
+
+.icon-pad {
+  padding: 5px;
+  color: #ea1414;
+}
+
+.icon-pad:hover {
+  color: black
+}

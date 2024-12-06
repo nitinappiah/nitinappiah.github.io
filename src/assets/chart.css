@@ -1,0 +1,73 @@
+.chart-container {
+  height: 40vh;
+  /* From https://css.glass */
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.8px);
+  -webkit-backdrop-filter: blur(10.8px);
+  border: 1px solid rgba(255, 255, 255, 0.21);
+  
+}
+
+.chart-margin {
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding:0%
+}
+
+.container-margin {
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.item-margin {
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-img-div {
+  width: 12vh;
+  height: 12vh;
+  padding: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one-third {
+  width: 30%; /* Default width */
+}
+
+@media (max-width: 768px) {
+  .one-third {
+      width: 94%; /* Full width for devices narrower than 768px */
+  }
+}
+
+@media (min-width: 1024px) {
+  .one-third {
+      width: 30%; /* Smaller width for devices wider than 1024px */
+  }
+}
+
+.hover:hover {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}

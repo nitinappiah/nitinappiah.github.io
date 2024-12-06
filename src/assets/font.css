@@ -1,0 +1,44 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 900 */
+
+.source-code-pro-font {
+  font-family: "Source Code Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.icon-size {
+    size: 25px;
+}
+
+.nav-bar-color {
+    background-color: grey;
+}
+
+.red {
+  color: #ea1414;
+}
+
+.btn-style {
+  background-color: #ea1414;
+  color: white;
+  border-radius: 5px;
+  border-width: 10px;
+  padding: 5px;
+  border-color: "#ea1414";
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-style:hover {
+  background-color: white;
+  color: #ea1414;
+  border-color: #ea1414;
+  border-width: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  border-color: "#ea1414";
+}

@@ -1,0 +1,70 @@
+{
+    "publications": [
+        {
+            "title": "Traumatic Brain Injury Rehabilitation Outcome Prediction Using Machine Learning Methods",
+            "authors": "N. Appiah, X. Ning, J. Bogner, C. Beaulieu",
+            "print": "Archives of Rehabilitation Research and Clinical Translation 2023",
+            "link": "https://www.sciencedirect.com/science/article/pii/S2590109523000575"
+        },
+        {
+            "title": "Investigating Federated Learning strategies for Pneumonia Image Classification",
+            "authors": "N. Appiah, N. Narayanan, K. Thelly, C. Babu",
+            "print": "Massachusetts Institute of Technology Undergraduate Research Technology Conference 2021",
+            "link": "https://ieeexplore.ieee.org/abstract/document/9701619"
+        },
+        {
+            "title": "Semi-supervised Fine-grained Approach for Arabic Dialect Detection",
+            "authors": "N. Appiah, B. Bharathi",
+            "print": "Proceedings of the Fifth Arabic Natural Language Processing Workshop, COLING 2020",
+            "link": "https://aclanthology.org/2020.wanlp-1.25.pdf"
+        },
+        {
+            "title": "Deep Learning for UI Element Detection",
+            "authors": "N. Narayanan, N. Appiah, K. Jaganathan",
+            "print": "Conference and Labs of the Evaluation Forum 2020",
+            "link": "https://ceur-ws.org/Vol-2696/paper_61.pdf"
+        },
+        {
+            "title": "Textual and Contextual Stance Detection from Tweets Using Machine Learning Approach",
+            "authors": "B. Bharathi, J. Bhuvana, N. Appiah",
+            "print": "Proceedings of the 7th Evaluation Campaign of Natural Language Processing and Speech Tools for Italian (EVALITA 2020)",
+            "link": "https://ceur-ws.org/Vol-2765/paper151.pdf"
+        },
+        {
+            "title": "Legal information retrieval and Rhetorical Role Labelling for Legal Judgements",
+            "authors": "N. Appiah, B. Bharathi",
+            "print": "Forum for Information Retrieval and Evaluation 2020",
+            "link": "https://ceur-ws.org/Vol-2826/T1-5.pdf"
+        },
+        {
+            "title": "Authorship Identification of SOurce COde (AI-SOCO)",
+            "authors": "N. Appiah, B. Bharathi",
+            "print": "Forum for Information Retrieval and Evaluation 2020",
+            "link": "https://ceur-ws.org/Vol-2826/T5-11.pdf"
+        },
+        {
+            "title": "Sentiment Analysis for Dravidian Languages in Code-Mixed Text",
+            "authors": "N. Appiah, B. Bharathi",
+            "print": "Forum for Information Retrieval and Evaluation 2020",
+            "link": "https://ceur-ws.org/Vol-2826/T4-12.pdf"
+        },
+        {
+            "title": "Offensive Language Identification on Multilingual Code Mixing Text",
+            "authors": "N. Appiah, B. Bharathi",
+            "print": "Forum for Information Retrieval and Evaluation 2020",
+            "link": "https://ceur-ws.org/Vol-2826/T2-36.pdf"
+        },
+        {
+            "title": "Fake news detection in the Urdu language (UrduFake) 2020",
+            "authors": "N. Appiah, B. Bharathi",
+            "print": "Forum for Information Retrieval and Evaluation 2020",
+            "link": "https://ceur-ws.org/Vol-2826/T3-6.pdf"
+        },
+        {
+            "title": "An Eco-friendly Porous Poly(imide-ether)s for the Efficient Removal of Methylene Blue: Adsorption Kinetics, Isotherm, Thermodynamics and Reuse Performances",
+            "authors": "A. Murugesan, M. Divakaran, P. Raveendran, N. Appiah, K. Thelly",
+            "print": "Journal of Polymers and the Environment 2019",
+            "link": "https://link.springer.com/article/10.1007/s10924-019-01408-z"
+        }
+    ]
+}
