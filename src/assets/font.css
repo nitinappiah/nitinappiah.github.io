@@ -29,7 +29,7 @@
   border-color: "#ea1414";
 }
 
-a {
+text-decoration {
   text-decoration: none;
 }
 
@@ -41,4 +41,8 @@ a {
   border-radius: 5px;
   padding: 5px;
   border-color: "#ea1414";
+}
+
+.cursor:hover {
+  cursor: pointer;
 }

@@ -146,7 +146,7 @@ function Experience() {
     [vue, "https://vue.ai/"],
   ].map((element) => {
     return (
-      <div className="card flex-img-div item-margin hover">
+      <div className="flex-img-div item-margin hover card" style={{width:"13vh", height:"13vh"}}>
         <a href={element[1]}>
           <img
             src={element[0]}

@@ -1,25 +1,34 @@
 import "../assets/font.css";
 import "bootstrap/js/src/collapse.js";
 
-function NavBar() {
+interface prop_data {
+  page:string;
+  setPage:Function;
+}
 
-  const url = window.location.href.split('/')
-  let select = url[url.length-1]
+function NavBar(prop:prop_data) {
+
+  // const url = window.location.href.split('/')
+  let select = prop.page
+  const changePage = (page:string) => {
+    console.log(page)
+    prop.setPage(page)
+  }
 
   let menu_items = ["About", "Experience", "Publications", "Hire Me"].map(
     (item) => {
       console.log(item, select)
       return (
-        <a className={`nav-link ${select.replace("%20", " ") === item ? "active" : ""}`} href={item}>
+        <div className={`cursor nav-link ${select.replace("%20", " ") === item ? "active" : ""}`} onClick={()=>changePage(item)}>
           {item}
-        </a>
+        </div>
       );
     }
   );
   return (
     <nav className="navbar navbar-dark bg-dark navbar-expand-lg source-code-pro-font">
       <div className="container-fluid">
-        <a className="navbar-brand red" href="/">
+        <a className="navbar-brand red" href="/" style={{color:"#ea1414"}}>
           <b>அப்யா</b>
         </a>
         <button

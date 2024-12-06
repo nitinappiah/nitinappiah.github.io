@@ -814,11 +814,11 @@ Best, \n\
         </a>
       </div>
       <div className="source-code-pro-font container-margin flex-container">
-        <h3>Send me a message on LinkedIn&nbsp;</h3>
+        <h3>Send me a message on</h3>
         <a className="container-margin" href={"https://www.linkedin.com/in/nitin-appiah/"} target="_blank">
           <FaLinkedin className="icon-pad red" size={50} />
         </a>
-        <h3 className="inline">&nbsp;or Email&nbsp;</h3>
+        <h3 className="inline">or Email&nbsp;</h3>
         <div>
           <IoIosMail className="red" size={50} />
         </div>
@@ -842,7 +842,7 @@ Best, \n\
               )}`}
             >
               <div
-                className="btn-style"
+                className="btn-style text-decoration" style={{"textDecoration": "none"}}
               >
                 Send <IoIosMail size={50} />
               </div>
